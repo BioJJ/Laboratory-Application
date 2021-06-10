@@ -43,8 +43,7 @@ $ localhost:3000/api
 
 ## Aplicações:
 
-- API -> https://github.com/BioJJ/laboratory-api
-- API with Microservice -> https://github.com/BioJJ/laboratory-microservice-external
+- API -> https://github.com/BioJJ/laboratory-deploy
 
 ## Technologies used
 
@@ -56,14 +55,18 @@ The technologies or tools listed below figure between the most relevant on the d
 BACKEND
 
 - Framework: NestJs + TypeOrm
-  "@nestjs/common": "^7.6.15",
-  "@nestjs/core": "^7.6.15",
-  "@nestjs/platform-express": "^7.6.15",
-  "@nestjs/swagger": "^4.8.0",
-  "reflect-metadata": "^0.1.13",
-  "rimraf": "^3.0.2",
-  "rxjs": "^6.6.6",
-  "swagger-ui-express": "^4.1.6"
+  - "@nestjs/common": "^7.6.15",
+  - "@nestjs/core": "^7.6.15",
+  - "@nestjs/platform-express": "^7.6.15",
+  - "@nestjs/swagger": "^4.8.0",
+  - "@nestjs/typeorm": "^7.1.5",
+  - "pg": "^8.6.0",
+  - "reflect-metadata": "^0.1.13",
+  - "rimraf": "^3.0.2",
+  - "rxjs": "^6.6.6",
+  - "sqlite3": "^5.0.2",
+  - "swagger-ui-express": "^4.1.6",
+  - "typeorm": "^0.2.34"
 
 ## Stay in touch
 
